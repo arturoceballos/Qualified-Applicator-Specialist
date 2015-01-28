@@ -88,8 +88,5 @@ fi
 
 # restart apache2
 echo -e "${COLOR}---restarting apache2---${COLOR_RST}"
+sudo chown vagrant:vagrant /var/lock/apache2
 service apache2 restart
-
-curl -O --silent https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar >> /dev/null
-chmod ugo+x wp-cli.phar
-sudo mv wp-cli.phar /usr/local/bin/wp
