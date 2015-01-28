@@ -71,6 +71,7 @@ mysql -u root -p1234 -e "create database wordpress;"
 echo -e "${COLOR}---allow overrides for .htaccess---${COLOR_RST}"
 sudo sed -i 's_www/html_www_' /etc/apache2/sites-available/default
 sudo sed -i 's_</VirtualHost>_Include /vagrant/scripts/allow-override.conf\n</VirtualHost>_' /etc/apache2/sites-available/default
+sudo sed -i 's_www-data_vagrant_' /etc/apache2/envvars
 a2dissite default && a2ensite default
 
 
