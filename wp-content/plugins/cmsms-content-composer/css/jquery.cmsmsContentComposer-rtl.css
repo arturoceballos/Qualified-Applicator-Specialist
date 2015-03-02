@@ -1,0 +1,383 @@
+/**
+ * @package 	WordPress Plugin
+ * @subpackage 	CMSMasters Content Composer
+ * @version		1.3.0
+ * 
+ * Visual Content Composer RTL Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+body {
+	unicode-bidi: embed;
+	direction: rtl;
+}
+
+.cmsms_set_fullscreen .cmsms_composer_container {
+	left: auto;
+	right: 0;
+}
+
+#cmsms_content_composer_button {
+	padding-right: 33px;
+}
+
+#cmsms_content_composer_button:before {
+	left: auto;
+	right: 8px;
+}
+
+#cmsms_composer_content {
+	text-align: right;
+	-webkit-border-radius: 0 0 3px 3px;
+	-moz-border-radius: 0 0 3px 3px;
+	border-radius: 0 0 3px 3px;
+}
+
+#cmsms_composer_content.deactivated:before {
+	text-align: center;
+	margin-left: 0;
+	margin-right: -12px;
+	left: auto;
+	right: 50%;
+}
+
+.innerColumn {
+	-webkit-box-shadow: -1px 1px 3px -3px #dfdfdf;
+	-moz-box-shadow: -1px 1px 3px -3px #dfdfdf;
+	box-shadow: -1px 1px 3px -3px #dfdfdf;
+}
+
+.innerHead {
+	left: auto;
+	right: 0;
+	-webkit-border-radius: 3px 3px 0 0;
+	-moz-border-radius: 3px 3px 0 0;
+	border-radius: 3px 3px 0 0;
+}
+
+a.cmsms_row .innerHead > span, 
+.innerHead span {
+	left: auto;
+	right: 10px;
+}
+
+.innerHead a {
+	margin-left: 2px;
+	margin-right: 0;
+	float: right;
+}
+
+.innerHead > ul {
+	float: right;
+	padding-left: 3px;
+	padding-right: 0;
+	margin-left: 3px;
+	margin-right: 0;
+}
+
+.innerHead ul li a {
+	float: none;
+	margin-left: 0;
+	margin-right: 3px;
+}
+
+.innerHead > a.cmsmsEditBut {
+	margin-left: 0;
+}
+
+.innerHead > a.cmsmsDelBut {
+	float: left;
+	margin-left: 0;
+}
+
+.innerColumn > a.cmsmsAddBut {
+	text-align: center;
+	margin-right: -12px;
+	left: auto;
+	right: 50%;
+}
+
+a .innerRow, 
+.innerContent {
+	text-align: center;
+}
+
+.cmsms_text .innerShortcode > .innerContent {
+	text-align: right;
+}
+
+.cmsms_heading .innerShortcode > .innerContent > h1, 
+.cmsms_heading .innerShortcode > .innerContent > h2, 
+.cmsms_heading .innerShortcode > .innerContent > h3, 
+.cmsms_heading .innerShortcode > .innerContent > h4, 
+.cmsms_heading .innerShortcode > .innerContent > h5, 
+.cmsms_heading .innerShortcode > .innerContent > h6 {
+	text-align: center;
+}
+
+.cmsms_heading .innerShortcode > .innerContent > h1:before, 
+.cmsms_heading .innerShortcode > .innerContent > h2:before, 
+.cmsms_heading .innerShortcode > .innerContent > h3:before, 
+.cmsms_heading .innerShortcode > .innerContent > h4:before, 
+.cmsms_heading .innerShortcode > .innerContent > h5:before, 
+.cmsms_heading .innerShortcode > .innerContent > h6:before {
+	margin-left: 0.5em;
+	margin-right: 0.2em;
+}
+
+.cmsms_icon_box .innerShortcode > .innerContent {
+	text-align: right;
+}
+
+.cmsms_icon_box .innerShortcode > .innerContent > div.cmsms_box_centered, 
+.cmsms_icon_box .innerShortcode > .innerContent > div.cmsms_box_colored {
+	text-align: center;
+}
+
+.cmsms_icon_box .innerShortcode > .innerContent > div.cmsms_box_lefticon[class*=" cmsms-icon-"] {
+	padding-right: 65px;
+}
+
+.cmsms_icon_box .innerShortcode > .innerContent > div.cmsms_box_heading[class*=" cmsms-icon-"] > h2 {
+	padding-left: 0 !important;
+	padding-right: 65px !important;
+}
+
+.cmsms_icon_box .innerShortcode > .innerContent > div:before {
+	left: auto;
+	right: 5px;
+}
+
+.cmsms_icon_box .innerShortcode > .innerContent > div.cmsms_box_centered:before, 
+.cmsms_icon_box .innerShortcode > .innerContent > div.cmsms_box_colored:before {
+	left: auto;
+	right: 50%;
+	margin-right: -25px;
+}
+
+.cmsms_featured_block .innerShortcode > .innerContent > div {
+	text-align: right;
+}
+
+.cmsms_notice .innerShortcode > .innerContent {
+	text-align: right;
+}
+
+.cmsms_notice .innerShortcode > .innerContent > div[class*=" cmsms-icon-"] {
+	padding-right: 60px;
+}
+
+.cmsms_notice .innerShortcode > .innerContent > div:before {
+	left: auto;
+	right: 5px;
+}
+
+.cmsms_notice .innerShortcode > .innerContent > div.true:after {
+	text-align: center;
+	right: auto;
+	left: 5px;
+}
+
+.cmsms_simple_icon .innerShortcode > .innerContent > div {
+	text-align: center;
+}
+
+.cmsms_button .innerShortcode > .innerContent > div {
+	text-align: center;
+}
+
+.cmsms_button .innerShortcode > .innerContent > div > a.cmsms_button:before {
+	margin-left: 10px;
+	margin-right: -5px;
+}
+
+.cmsms_image .innerShortcode > .innerContent > div {
+	text-align: center;
+}
+
+.innerColumn > .cmsms_divider > a.cmsmsEditShortcodeBut:before {
+	margin-left: 0;
+	margin-right: -20px;
+}
+
+.cmsms_row {
+	-webkit-box-shadow: 0 0 0 #ffffff;
+	-moz-box-shadow: 0 0 0 #ffffff;
+	box-shadow: 0 0 0 #ffffff;
+}
+
+.cmsms_row.ui-selected {
+	-webkit-box-shadow: 0 0 5px #e6db55;
+	-moz-box-shadow: 0 0 5px #e6db55;
+	box-shadow: 0 0 5px #e6db55;
+}
+
+.ui-sortable-placeholder, 
+.innerColumn > a.ui-draggable {
+	-webkit-box-shadow: 0 0 0 1px #e6db55;
+	-moz-box-shadow: 0 0 0 1px #e6db55;
+	box-shadow: 0 0 0 1px #e6db55;
+}
+
+#cmsms_composer_content > a.ui-draggable.ui-sortable-placeholder:before, 
+.innerColumn > a.ui-draggable:before {
+	margin-left: 0;
+	margin-right: -12px;
+	left: auto;
+	right: 50%;
+}
+
+.innerColumn > div > a.cmsmsEditShortcodeBut {
+	left: auto;
+	right: 5%;
+}
+
+.innerColumn > div > a.cmsmsEditShortcodeBut:before {
+	margin-left: 0;
+	margin-right: -35px;
+	left: auto;
+	right: 50%;
+}
+
+.cmsms_composer_buttons_container a.cmsms_row .innerHead > span {
+	left: auto;
+	right: 10px;
+}
+
+a.cmsms_row .innerRow span.cmsmsShortcodeTitle {
+	margin-left: 0;
+	margin-right: -12px;
+	left: auto;
+	right: 50%;
+}
+
+.innerShortcode span.cmsmsShortcodeTitle {
+	padding-left: 0;
+	padding-right: 35px;
+}
+
+a.cmsms_row .innerRow span.cmsmsShortcodeTitle:before, 
+.innerShortcode span.cmsmsShortcodeTitle:before {
+	text-align: center;
+	left: auto;
+	right: 0;
+}
+
+.cmsms_composer_buttons_container a .innerShortcode span.cmsmsShortcodeTitle {
+	padding-left: 0;
+	padding-right: 35px;
+	left: auto;
+	right: auto;
+}
+
+.cmsms_set_fullscreen .cmsms_composer_buttons_container {
+	left: auto;
+	right: 0;
+	-webkit-box-shadow: 0 5px 3px -3px #aaaaaa;
+	-moz-box-shadow: 0 5px 3px -3px #aaaaaa;
+	box-shadow: 0 5px 3px -3px #aaaaaa;
+}
+
+.cmsms_composer_buttons_container_wrap li {
+	padding-left: 5px;
+	padding-right: 0;
+}
+
+.cmsms_composer_buttons_container_wrap a {
+	text-align: center;
+}
+
+.cmsms_composer_buttons_container_wrap a span {
+	left: auto;
+	right: 0;
+}
+
+.cmsms_composer_templates_container_wrap > a, 
+.cmsms_composer_templates_container_wrap > a.button {
+	margin-left: 0;
+	margin-right: 10px;
+}
+
+.cmsms_composer_templates_container_wrap a:before {
+	text-align: center;
+}
+
+.cmsms_composer_templates_container_wrap > a.cmsms_clear_content, 
+.cmsms_composer_templates_container_wrap > a.cmsms_composer_fullscreen, 
+.cmsms_composer_templates_container_wrap > label.cmsms_composer_begin, 
+.cmsms_composer_templates_container_wrap > label.cmsms_composer_confirm, 
+.cmsms_composer_templates_container_wrap > a.cmsms_update_trigger, 
+.cmsms_composer_templates_container_wrap > a.cmsms_preview_trigger {
+	float: left;
+}
+
+.cmsms_composer_templates_container_wrap a.button:before {
+	float: right;
+	margin-left: 7px;
+	margin-right: 0;
+}
+
+.cmsms_composer_templates_container_wrap > .cmsms_pattern_list {
+	float: right;
+}
+
+.cmsms_composer_templates_container_wrap > .cmsms_pattern_list ul {
+	left: auto;
+	right: 0;
+	-webkit-box-shadow: 0 0 3px #868686;
+	-moz-box-shadow: 0 0 3px #868686;
+	box-shadow: 0 0 3px #868686;
+}
+
+.cmsms_composer_templates_container_wrap > .cmsms_pattern_list li:first-child {
+	text-align: center;
+	-webkit-box-shadow: 0 5px 3px -3px #eeeeee;
+	-moz-box-shadow: 0 5px 3px -3px #eeeeee;
+	box-shadow: 0 5px 3px -3px #eeeeee;
+}
+
+.cmsms_composer_templates_container_wrap > .cmsms_pattern_list li:first-child > span {
+	text-align: center;
+}
+
+.cmsms_composer_buttons_container > .cmsms_composer_templates_container_wrap li a.cmsms_pattern_delete {
+	right: auto;
+	left: 5px;
+}
+
+.wrap div.cmsms_message {
+	margin-left: 0;
+	margin-right: -25%;
+	left: auto;
+	right: 50%;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.cmsms_column.one_half, 
+.cmsms_column.one_third, 
+.cmsms_column.two_third, 
+.cmsms_column.one_fourth, 
+.cmsms_column.three_fourth {
+	float: right;
+}
+
+#cmsms_composer_content .innerShortcode > .innerContent .alignleft {
+	float: right;
+}
+
+#cmsms_composer_content .innerShortcode > .innerContent .alignright {
+	float: left;
+}
+
+#cmsms_composer_content .innerShortcode > .innerContent img.alignleft {
+	margin-left: 20px;
+}
+
+#cmsms_composer_content .innerShortcode > .innerContent img.alignright {
+	margin-right: 20px;
+}
+

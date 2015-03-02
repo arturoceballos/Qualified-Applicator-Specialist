@@ -1,0 +1,98 @@
+/**
+ * @package 	WordPress Plugin
+ * @subpackage 	CMSMasters Content Composer
+ * @version		1.4.0
+ * 
+ * Styles for Widgets in Admin Panel
+ * Created by CMSMasters
+ * 
+ */
+
+
+.fixed .column-menu_order, 
+.fixed .column-dn_anonymous, 
+.fixed .column-dn_status {
+	width: 4em;
+}
+
+.fixed .column-menu_order .sorting-indicator {
+	top: -3px;
+}
+
+.fixed .column-pj_thumb, 
+.fixed .column-pl_avatar, 
+.fixed .column-cp_target, 
+.fixed .column-cp_funds, 
+.fixed .column-cp_thumb, 
+.fixed .column-dn_amount, 
+.fixed .column-dn_recurrence, 
+.fixed .column-dn_campaign {
+	width: 10%;
+}
+
+.fixed .column-pj_categs, 
+.fixed .column-pl_categs, 
+.fixed .column-pj_tags, 
+.fixed .column-cp_categs, 
+.fixed .column-dn_donator {
+	width: 15%;
+}
+
+.fixed .column-menu_order .vers div {
+	font-size: 18px;
+	margin-left: -2px;
+}
+
+.fixed td.column-dn_status span {
+	display: block;
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 22px;
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.fixed td.column-dn_status span.publish {
+	background-color: #00aa00;
+}
+
+.fixed td.column-dn_status span.pending_payment {
+	background-color: #ffba00;
+}
+
+.fixed td.column-dn_status span.pending_offline {
+	background-color: #aa0000;
+}
+
+
+@media screen and (max-width: 782px) {
+	.fixed .column-pj_thumb, 
+	.fixed .column-pl_avatar, 
+	.fixed .column-pj_categs, 
+	.fixed .column-pl_categs, 
+	.fixed .column-pj_tags, 
+	.fixed .column-cp_thumb, 
+	.fixed .column-cp_categs, 
+	.fixed .column-dn_recurrence, 
+	.fixed .column-dn_donator, 
+	.fixed .column-dn_anonymous, 
+	.fixed .column-dn_campaign {
+		display: none;
+	}
+	
+	.fixed .column-menu_order, 
+	.fixed .column-dn_status {
+		width: 55px;
+	}
+	
+	.fixed .column-cp_target, 
+	.fixed .column-cp_funds, 
+	.fixed .column-dn_amount {
+		width: 90px;
+	}
+}
+
