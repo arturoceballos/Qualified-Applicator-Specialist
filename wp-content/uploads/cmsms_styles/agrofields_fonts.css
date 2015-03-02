@@ -1,0 +1,714 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Agrofields
+ * @version		1.1.0
+ * 
+ * Theme Fonts Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+/***************** Start Theme Font Styles ******************/
+
+	/* Start Content Font */
+	body, 
+	.cmsms_breadcrumbs .cmsms_breadcrumbs_inner, 
+	.post.cmsms_masonry_type .cmsms_post_cont .cmsms_post_cont_inner .cmsms_post_read_more, 
+	.post.cmsms_timeline_type .cmsms_post_cont .cmsms_post_footer .cmsms_post_read_more, 
+	.cmsms_breadcrumbs .cmsms_breadcrumbs_inner a {
+		font-family:'Droid Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:13px;
+		line-height:18px;
+		font-weight:normal;
+		font-style:normal;
+	}
+	/* Finish Content Font */
+
+
+	/* Start Link Font */
+	a,
+	#cancel-comment-reply-link {
+		font-family:'Droid Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:13px;
+		line-height:18px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+
+	a:hover {
+		text-decoration:none;
+	}
+	/* Finish Link Font */
+
+
+	/* Start Navigation Title Font */
+	#navigation > li > a {
+		font-family:'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:14px;
+		line-height:20px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:none;
+	}
+
+	#navigation > li.menu-item-mega > div.menu-item-mega-container > ul > li > a,
+	#navigation > li.menu-item-mega > div.menu-item-mega-container > ul > li:hover > a {
+		font-weight:700; /* static */
+	}
+	
+	@media only screen and (max-width: 1024px) {
+		html #page #header nav #navigation li a {
+			font-size:13px;
+			font-weight:400; /* static */
+		}
+		
+		html #page #header nav #navigation > li > a {
+			font-weight:500; /* static */
+		}
+		
+		html #page #header nav #navigation li li li a {
+			font-size:11px;
+		}
+	}
+	/* Finish Navigation Title Font */
+
+
+	/* Start Navigation Dropdown Font */
+	#navigation ul li a {
+		font-family:'Droid Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:13px;
+		line-height:34px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:none;
+	}
+	/* Finish Navigation Dropdown Font */
+
+
+	/* Start H1 Font */
+	h1,
+	h1 a,
+	.widget_custom_colored_blocks_entries .widgettitle,
+	.cmsms_pricing_table .cmsms_pricing_item .cmsms_price_wrap .cmsms_coins,
+	.cmsms_pricing_table .cmsms_pricing_item .cmsms_price_wrap .cmsms_currency,
+	.cmsms_pricing_table .cmsms_pricing_item .cmsms_price_wrap .cmsms_price,
+	#header .logo .title {
+		font-family:'Montserrat', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:50px;
+		line-height:56px;
+		font-weight:700;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	.cmsms_dropcap {
+		font-family:'Montserrat', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	.widget_custom_colored_blocks_entries .widgettitle {
+		font-size:36px;
+		line-height:42px;
+	}
+	
+	.cmsms_dropcap {
+		font-size:40px; /* static */
+		font-weight:normal;
+	}
+	
+	.cmsms_dropcap.type2 {
+		font-size:30px; /* static */
+	}
+	
+	.cmsms_pricing_table .cmsms_pricing_item .cmsms_price_wrap .cmsms_price {
+		font-size:70px;
+		line-height:70px;
+	}
+	
+	.cmsms_pricing_table .cmsms_pricing_item .cmsms_price_wrap .cmsms_coins,
+	.cmsms_pricing_table .cmsms_pricing_item .cmsms_price_wrap .cmsms_currency {
+		line-height:44px;
+		font-size:30px;
+	} 
+	/* Finish H1 Font */
+
+
+	/* Start H2 Font */
+	h2,
+	h2 a,
+	.cmsms_stats.stats_mode_bars.stats_type_vertical .cmsms_stat_wrap .cmsms_stat .cmsms_stat_inner .cmsms_stat_counter_wrap,
+	.cmsms_stats.stats_mode_circles .cmsms_stat_wrap .cmsms_stat .cmsms_stat_inner .cmsms_stat_counter_wrap,
+	.post.cmsms_default_type.format-aside .entry-title,
+	.post.cmsms_default_type.format-status .entry-title,
+	.post.format-aside .cmsms_post_content .entry-content,
+	.post.format-status .cmsms_post_content .entry-content {
+		font-family:'Montserrat', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:30px;
+		line-height:36px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	.cmsms_counters .cmsms_counter_wrap .cmsms_counter .cmsms_counter_inner .cmsms_counter_counter_wrap,
+	.cmsms_stats.stats_mode_counters.stats_type_numbers .cmsms_stat_wrap .cmsms_stat .cmsms_stat_inner .cmsms_stat_counter_wrap,
+	.post.cmsms_default_type .cmsms_post_date .cmsms_day_mon {
+		font-family:'Montserrat', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	.cmsms_counters .cmsms_counter_wrap .cmsms_counter .cmsms_counter_inner .cmsms_counter_counter_wrap,
+	.cmsms_stats.stats_mode_counters.stats_type_numbers .cmsms_stat_wrap .cmsms_stat .cmsms_stat_inner .cmsms_stat_counter_wrap {
+		font-size:35px;
+		line-height:40px;
+	}
+	
+	.post.cmsms_default_type .cmsms_post_date .cmsms_day_mon {
+		font-size:19px; /* static */
+		line-height:20px; /* static */
+	}
+	/* Finish H2 Font */
+
+
+	/* Start H3 Font */
+	h3,
+	h3 a,
+	.cmsms_sitemap_wrap .cmsms_sitemap > li > a,
+	.cmsms_search .cmsms_search_post .cmsms_search_post_number,
+	.cmsms_pricing_table .cmsms_pricing_item .pricing_title {
+		font-family:'Montserrat', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:24px;
+		line-height:36px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	.cmsms_posts_slider .post .cmsms_slider_post_cont .cmsms_post_format_img .cmsms_slider_post_date .cmsms_mon,
+	.cmsms_posts_slider .post .cmsms_slider_post_cont .cmsms_post_format_img .cmsms_slider_post_date .cmsms_day,
+	.cmsms_profile .entry-title,
+	.cmsms_profile .entry-title a,
+	.post.cmsms_timeline_type .cmsms_post_date .cmsms_year,
+	.post.cmsms_default_type.format-quote .cmsms_post_cont .cmsms_quote_author {
+		font-family:'Montserrat', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-weight:normal;
+		font-style:normal;
+		text-decoration:none;
+	}
+	
+	.cmsms_posts_slider .post .cmsms_slider_post_cont .cmsms_post_format_img .cmsms_slider_post_date .cmsms_mon {
+		font-size:16px;
+		line-height:20px;
+	}
+	.cmsms_posts_slider .post .cmsms_slider_post_cont .cmsms_post_format_img .cmsms_slider_post_date .cmsms_day {
+		font-size:28px;
+		line-height:20px;
+	}
+	
+	.post.cmsms_timeline_type .cmsms_post_date .cmsms_year {
+		font-size:18px;
+		line-height:20px;
+		text-transform:none;
+	}
+	
+	.cmsms_search .cmsms_search_post .cmsms_search_post_number {
+		line-height:52px;
+	}
+	
+	.cmsms_profile .entry-title,
+	.cmsms_profile .entry-title a {
+		font-size:20px;
+		line-height:26px;
+	}
+	
+	.post.cmsms_default_type.format-quote .cmsms_post_cont .cmsms_quote_author {
+		font-size:12px;
+		line-height:20px;
+		text-transform:uppercase;
+	}
+	/* Finish H3 Font */
+
+
+	/* Start H4 Font */
+	h4, 
+	h4 a,
+	.cmsms_posts_slider .format-aside .cmsms_slider_post_cont .cmsms_slider_post_content .entry-title,
+	.cmsms_posts_slider .format-status .cmsms_slider_post_cont .cmsms_slider_post_content .entry-title,
+	.cmsms_sitemap_wrap .cmsms_sitemap > li > ul > li > a,
+	.quote_grid .quote_title,
+	.post.cmsms_masonry_type.format-aside .cmsms_post_cont .cmsms_post_content .entry-title, 
+	.post.cmsms_timeline_type.format-aside .cmsms_post_cont .cmsms_post_content .entry-title, 
+	.post.cmsms_masonry_type.format-status .cmsms_post_cont .cmsms_post_content .entry-title, 
+	.post.cmsms_timeline_type.format-status .cmsms_post_cont .cmsms_post_content .entry-title {
+		font-family:'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:18px;
+		line-height:22px;
+		font-weight:600;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	.post.cmsms_timeline_type .cmsms_post_date .cmsms_day_mon {
+		font-family:'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-weight:600;
+		font-style:normal;
+		text-decoration:none;
+	}
+	
+	.post.cmsms_timeline_type .cmsms_post_date .cmsms_day_mon {
+		font-size:11px;
+		line-height:10px;
+		text-transform:uppercase;
+	}
+	/* Finish H4 Font */
+
+
+	/* Start H5 Font */
+	h5,
+	h5 a,
+	.cmsms_counters .cmsms_counter_wrap .cmsms_counter .cmsms_counter_inner .cmsms_counter_title,
+	.cmsms_quotes_slider .quote_title,
+	.post_nav a,
+	.related_posts > ul li > a,
+	.cmsms_stats.stats_mode_counters.stats_type_numbers .cmsms_stat_wrap .cmsms_stat .cmsms_stat_inner .cmsms_stat_title,
+	.cmsms_stats.stats_mode_bars .cmsms_stat_title,
+	.cmsms_stats.stats_mode_circles .cmsms_stat_wrap .cmsms_stat .cmsms_stat_inner .cmsms_stat_title,
+	.widgettitle {
+		font-family:'Montserrat', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:16px;
+		line-height:24px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	.post.cmsms_timeline_type.format-chat .cmsms_post_cont .cmsms_chat .cmsms_chat_author_time .cmsms_chat_author,
+	.post.cmsms_masonry_type.format-chat .cmsms_post_cont .cmsms_chat .cmsms_chat_author_time .cmsms_chat_author {
+		font-family:'Montserrat', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-weight:normal;
+		font-style:normal;
+		text-decoration:none;
+	}
+	
+	.post.cmsms_masonry_type.format-chat .cmsms_post_cont .cmsms_chat .cmsms_chat_author_time .cmsms_chat_author,
+	.post.cmsms_timeline_type.format-chat .cmsms_post_cont .cmsms_chat .cmsms_chat_author_time .cmsms_chat_author {
+		font-size:12px;
+		line-height:20px;
+		text-transform:uppercase;
+	}
+	
+	.cmsms_stats.stats_mode_bars .cmsms_stat_title {
+		line-height:20px;
+	}
+	/* Finish H5 Font */
+
+
+	/* Start H6 Font */
+	h6,
+	h6 a,
+	.widget_custom_colored_blocks_entries .widget_colored_cell .button_widget,
+	.cmsms_posts_slider .post.format-chat .cmsms_slider_post_cont .cmsms_slider_post_chat .cmsms_chat_author,
+	.cmsms_posts_slider .post.format-quote .cmsms_slider_post_quote_content,
+	.cmsms_sitemap_category > li > a,
+	.cmsms_sitemap_archive > li > a,
+	.cmsms_sitemap_wrap .cmsms_sitemap > li > ul > li > ul > li > a,
+	.tweet_text,
+	.tweet_text a,
+	.quote_subtitle,
+	.quote_link,
+	.cmsms_table tr th, 
+	.cmsms_table tr.cmsms_table_row_footer td, 
+	.cmsms_table tr th,
+	dl dt, 
+	.widget_nav_menu ul li > a,
+	.cmsms_twitter .cmsms_twitter_item .cmsms_twitter_item_content,
+	.cmsms_twitter .cmsms_twitter_item .cmsms_twitter_item_content a,
+	.post.cmsms_default_type .cmsms_post_date .cmsms_year,
+	.post.format-chat .cmsms_post_cont .cmsms_chat .cmsms_chat_author_time .cmsms_chat_author {
+		font-family:'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:14px;
+		line-height:18px;
+		font-weight:600;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	.cmsms_toggles .cmsms_toggle_wrap .cmsms_toggle_title > a,
+	.cmsms_tabs .cmsms_tabs_list .cmsms_tabs_list_item > a,
+	.cmsms_stats.stats_mode_bars.stats_type_horizontal .cmsms_stat_wrap .cmsms_stat .cmsms_stat_inner .cmsms_stat_counter_wrap,
+	.post.cmsms_masonry_type.format-quote .cmsms_post_cont .cmsms_quote_author,
+	.post.cmsms_timeline_type.format-quote .cmsms_post_cont .cmsms_quote_author,
+	.post.cmsms_masonry_type .cmsms_post_cont .cmsms_quote_content,
+	.post.cmsms_timeline_type .cmsms_post_cont .cmsms_quote_content {
+		font-family:'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:14px;
+		line-height:18px;
+		font-weight:600;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	.cmsms_sitemap_category > li > a,
+	.cmsms_sitemap_archive > li > a,
+	.cmsms_sitemap_wrap .cmsms_sitemap > li > ul > li > ul > li > a {
+		font-size:13px;
+	}
+	
+	.cmsms_posts_slider .post.format-quote .cmsms_slider_post_quote_content {
+		line-height:22px;
+	}
+	
+	.tweet_text a,
+	.tweet_text {
+		font-size:13px;
+		line-height:20px;
+		font-style:italic;
+	}
+	
+	.cmsms_twitter .cmsms_twitter_item .cmsms_twitter_item_content,
+	.cmsms_twitter .cmsms_twitter_item .cmsms_twitter_item_content a {
+		font-weight:normal;
+	}
+	
+	.cmsms_toggles .cmsms_toggle_wrap .cmsms_toggle_title > a,
+	.cmsms_tabs .cmsms_tabs_list .cmsms_tabs_list_item > a {
+		font-sixe:16px;
+		line-height:20px;
+	}
+	
+	.post.cmsms_masonry_type .cmsms_post_cont .cmsms_quote_content,
+	.post.cmsms_timeline_type .cmsms_post_cont .cmsms_quote_content {
+		font-style:italic;
+	}
+	
+	
+	.cmsms_stats.stats_mode_bars.stats_type_horizontal .cmsms_stat_wrap .cmsms_stat .cmsms_stat_inner .cmsms_stat_counter_wrap {
+		font-size:15px;
+		line-height:20px;
+	}
+	
+	.post.cmsms_masonry_type.format-quote .cmsms_post_cont .cmsms_quote_author,
+	.post.cmsms_timeline_type.format-quote .cmsms_post_cont .cmsms_quote_author {
+		font-size:12px;
+		text-transform:uppercase;
+	}
+	/* Finish H6 Font */
+
+
+	/* Start Button Font */
+	.button,
+	.cmsms_button, 
+	.cmsms_post_loader, 
+	.cmsms_project_loader, 
+	.comment-reply-link, 
+	#cancel-comment-reply-link, 
+	input[type='submit'], 
+	input[type='button'], 
+	button {
+		font-family:'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:13px;
+		line-height:40px;
+		font-weight:600;
+		font-style:normal;
+		text-transform:uppercase;
+	}
+	
+	.button, 
+	.cmsms_post_loader, 
+	.cmsms_project_loader, 
+	.comment-reply-link, 
+	#cancel-comment-reply-link, 
+	input[type='submit'], 
+	input[type='button'], 
+	button {
+		line-height:18px;
+	}
+	
+	.gform_wrapper .gform_footer input.button, 
+	.gform_wrapper .gform_footer input[type=submit] {
+		font-size:13px !important;
+	}
+	/* Finish Button Font */
+
+
+	/* Start Small Text Font */
+	small {
+		font-family:'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:11px;
+		line-height:18px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:none;
+	}
+
+	.gform_wrapper .description, 
+	.gform_wrapper .gfield_description, 
+	.gform_wrapper .gsection_description, 
+	.gform_wrapper .instruction {
+		font-family:'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif !important;
+		font-size:11px !important;
+		line-height:18px !important;
+	}
+	
+	.meta_wrap > div[class^="cmsms-icon-"]:before,
+	.meta_wrap > p[class^="cmsms-icon-"]:before,
+	.meta_wrap > span[class^="cmsms-icon-"]:before,
+	.meta_wrap > strong[class^="cmsms-icon-"]:before,
+	.meta_wrap > div[class*=" cmsms-icon-"]:before,
+	.meta_wrap > p[class*=" cmsms-icon-"]:before,
+	.meta_wrap > span[class*=" cmsms-icon-"]:before,
+	.meta_wrap > strong[class*=" cmsms-icon-"]:before {
+		font-size:16px;
+	}
+	/* Finish Small Text Font */
+
+
+	/* Start Text Fields Font */
+	input[type=text],
+	input[type=email],
+	input[type=password],
+	input[type=number],
+	input[type=url],
+	input[type=tel],
+	textarea,
+	select,
+	option, 
+	code {
+		font-family:'Droid Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:13px;
+		line-height:20px;
+		font-weight:normal;
+		font-style:normal;
+	}
+	
+	.gform_wrapper input[type=text], 
+	.gform_wrapper input[type=url], 
+	.gform_wrapper input[type=email], 
+	.gform_wrapper input[type=tel], 
+	.gform_wrapper input[type=number], 
+	.gform_wrapper input[type=password], 
+	.gform_wrapper textarea, 
+	.gform_wrapper select {
+		font-size:13px !important;
+	}
+	/* Finish Text Fields Font */
+
+
+	/* Start Blockquote Font */
+	q,
+	blockquote {
+		font-family:'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:16px;
+		line-height:26px;
+		font-weight:600;
+		font-style:normal;
+	}
+	
+	q:before,
+	blockquote:before {
+		font:70px/40px Georgia, Times, 'Century Schoolbook L', serif; /* static */
+	}
+	
+	.quote_grid .quote_image:before {
+		font:70px/84px Georgia, Times, 'Century Schoolbook L', serif;
+	}
+	/* Finish Blockquote Font */
+
+/***************** Finish Theme Font Styles ******************/
+
+
+
+/***************** Start WooCommerce Font Styles ******************/
+
+	/* Start Content Font */
+	.checkout #order_review .shop_table tr.cart_item th, 
+	.checkout #order_review .shop_table tr.cart_item td, 
+	.checkout #order_review .shop_table tr.cart_item th *, 
+	.checkout #order_review .shop_table tr.cart_item td *, 
+	.shop_table.order_details tr.order_item th, 
+	.shop_table.order_details tr.order_item td, 
+	.shop_table.order_details tr.order_item th *, 
+	.shop_table.order_details tr.order_item td *, 
+	ul.order_details li > strong {
+		font-family:'Droid Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:13px;
+		line-height:18px;
+		font-weight:normal;
+		font-style:normal;
+	}
+	/* Finish Content Font */
+	
+	
+	/* Start Link Font */
+	/* Finish Link Font */
+	
+	
+	/* Start H1 Font */
+	/* Finish H1 Font */
+	
+	
+	/* Start H2 Font */
+	/* Finish H2 Font */
+	
+	
+	/* Start H3 Font */
+	.cmsms_products .product .product_outer .product_inner .cmsms_product_info .price, 
+	.cmsms_single_product .cmsms_product_right_column .product_title, 
+	.cmsms_single_product .cmsms_product_right_column .price, 
+	.cmsms_single_product .cmsms_woo_tabs .cmsms_tabs_wrap .cmsms_tab .cmsms_tab_inner > h2, 
+	.cmsms_single_product .cmsms_woo_tabs #reviews #comments > h2 {
+		font-family:'Montserrat', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:24px;
+		line-height:36px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	.cmsms_products .product .product_outer .product_inner .cmsms_product_info .price, 
+	.cmsms_single_product .cmsms_product_right_column .price del {
+		font-size:20px;
+	}
+	
+	.cmsms_products .product .product_outer .product_inner .cmsms_product_info .price del {
+		font-size:17px;
+	}
+	/* Finish H3 Font */
+	
+	
+	/* Start H4 Font */
+	.cart_totals > h2, 
+	.cart_totals > h2 *, 
+	.shipping_calculator > h2, 
+	.shipping_calculator > h2 *, 
+	.checkout .woocommerce-billing-fields > h3, 
+	.checkout .woocommerce-shipping-fields > h3 {
+		font-family:'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:18px;
+		line-height:22px;
+		font-weight:600;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	/* Finish H4 Font */
+	
+	
+	/* Start H5 Font */
+	.product_list_widget li .amount, 
+	.cmsms_dynamic_cart .widget_shopping_cart_content .cart_list li .quantity {
+		font-family:'Montserrat', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:16px;
+		line-height:24px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	/* Finish H5 Font */
+	
+	
+	/* Start H6 Font */
+	.shop_table th, 
+	.shop_table td.product-name, 
+	.shop_table td.product-name *, 
+	.shop_table td.product-price, 
+	.shop_table td.product-price *, 
+	.shop_table td.product-subtotal, 
+	.shop_table td.product-subtotal *, 
+	.cart_totals table, 
+	.cart_totals table *, 
+	.checkout #order_review .shop_table th, 
+	.checkout #order_review .shop_table td, 
+	.checkout #order_review .shop_table th *, 
+	.checkout #order_review .shop_table td *, 
+	.shop_table.order_details th, 
+	.shop_table.order_details td, 
+	.shop_table.order_details th *, 
+	.shop_table.order_details td *, 
+	ul.order_details li > span, 
+	.product_list_widget li > a, 
+	.cmsms_dynamic_cart .widget_shopping_cart_content .cart_list li a {
+		font-family:'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:14px;
+		line-height:18px;
+		font-weight:600;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	.shop_table th {
+		font-size:15px;
+	}
+	
+	.shop_table td.product-name, 
+	.shop_table td.product-name *, 
+	.shop_table td.product-price, 
+	.shop_table td.product-price *, 
+	.shop_table td.product-subtotal, 
+	.shop_table td.product-subtotal *, 
+	.cart_totals table, 
+	.cart_totals table *, 
+	.checkout #order_review .shop_table th, 
+	.checkout #order_review .shop_table td, 
+	.checkout #order_review .shop_table th *, 
+	.checkout #order_review .shop_table td *, 
+	.shop_table.order_details th, 
+	.shop_table.order_details td, 
+	.shop_table.order_details th *, 
+	.shop_table.order_details td *, 
+	ul.order_details li > span, 
+	.product_list_widget li > a, 
+	.product_list_widget li .amount {
+		font-size:13px;
+	}
+	
+	.cmsms_dynamic_cart .widget_shopping_cart_content .cart_list li a, 
+	.cmsms_dynamic_cart .widget_shopping_cart_content .cart_list li .quantity {
+		font-size:12px;
+		font-weight:600;
+	}
+	
+	.product_list_widget li .amount, 
+	.cmsms_dynamic_cart .widget_shopping_cart_content .cart_list li .quantity {
+		line-height:18px;
+	}
+	
+	.onsale, 
+	.out-of-stock {
+		font-family:'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+	}
+	
+	.shop_table td.product-price, 
+	.shop_table td.product-price * {
+		font-weight:normal;
+	}
+	/* Finish H6 Font */
+	
+	
+	/* Start Button Font */
+	/* Finish Button Font */
+	
+	
+	/* Start Small Text Font */
+	/* Finish Small Text Font */
+
+/***************** Finish WooCommerce Font Styles ******************/
+
+
