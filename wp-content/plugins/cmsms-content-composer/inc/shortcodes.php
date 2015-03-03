@@ -183,7 +183,10 @@ add_shortcode('cmsms_row', 'cmsms_row');
  * Column
  */
 function cmsms_column($atts, $content = null) {
-    extract(shortcode_atts(array( 
+    print $content;
+	
+	
+	extract(shortcode_atts(array( 
 		'data_width' => 			'1/1', 
 		'data_animation' => 		'', 
 		'data_animation_delay' => 	'', 
@@ -205,7 +208,7 @@ function cmsms_column($atts, $content = null) {
 		$new_width = 'one_fourth';
 	}
 	
-	
+
     return cmsms_divpdel('<div class="cmsms_column ' . $new_width . 
 	(($data_classes != '') ? ' ' . $data_classes : '') . 
 	'"' . 
