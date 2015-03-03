@@ -13,8 +13,8 @@
 /* Get Logo Function */
 function cmsms_logo() {
 	$cmsms_option = cmsms_get_global_options();
-	
-	
+
+
 	$header_mid_height = (($cmsms_option[CMSMS_SHORTNAME . '_header_mid_height'] !== '') ? $cmsms_option[CMSMS_SHORTNAME . '_header_mid_height'] : '95');
 	
 	
@@ -43,8 +43,8 @@ function cmsms_logo() {
 	} else {
 		if ($cmsms_option[CMSMS_SHORTNAME . '_logo_url'] == '') {
 			echo '<a href="' . esc_url(home_url()) . '/" title="' . esc_attr(get_bloginfo('name')) . '" class="logo">' . "\n\t" . 
-				'<img src="' . get_template_directory_uri() . '/img/logo.png" alt="' . esc_attr(get_bloginfo('name')) . '" />' . "\n\t" . 
-				'<img class="logo_retina" src="' . esc_url(get_template_directory_uri()) . '/img/logo_retina.png" alt="' . esc_attr(get_bloginfo('name')) . '" width="298" height="32" />' . "\r" . 
+				'<img src="' . get_template_directory_uri() . '/img/logo.png" alt="' . esc_attr(get_bloginfo('name')) . '" />' . "\n\t" .
+				'<img class="logo_retina" src="' . esc_url(get_template_directory_uri()) . '/img/logo_retina.png" alt="' . esc_attr(get_bloginfo('name')) . '" width="298" height="32" />' . "\r" .
 			'</a>' . "\n";
 			
 			
