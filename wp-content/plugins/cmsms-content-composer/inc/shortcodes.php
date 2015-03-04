@@ -183,7 +183,7 @@ add_shortcode('cmsms_row', 'cmsms_row');
  * Column
  */
 function cmsms_column($atts, $content = null) {
-    print $content;
+//    print $content;
 	
 	
 	extract(shortcode_atts(array( 

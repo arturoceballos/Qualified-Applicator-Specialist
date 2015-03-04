@@ -42,19 +42,19 @@
 	.cmsms_clients_slider .owl-buttons > div.owl-next:hover .cmsms_next_arrow:before,
 	.cmsms_tabs.lpr .cmsms_tabs_list .cmsms_tabs_list_item > a,
 	.cmsms_post_comments:hover {
-		color:#838383; color:rgba(131, 131, 131, 1);
+		color:#4ecdc4; color:rgba(78, 205, 196, 1);
 	}
 	
 	abbr,
 	acronym {
-		border-bottom-color:#838383; border-bottom-color:rgba(131, 131, 131, 1);
+		border-bottom-color:#4ecdc4; border-bottom-color:rgba(78, 205, 196, 1);
 	}
 	
 	input::-webkit-input-placeholder {
-		color:#838383; color:rgba(131, 131, 131, 1);
+		color:#4ecdc4; color:rgba(78, 205, 196, 1);
 	}
 	input:-moz-placeholder {
-		color:#838383; color:rgba(131, 131, 131, 1);
+		color:#4ecdc4; color:rgba(78, 205, 196, 1);
 	}
 	/* Finish Main Content Font Color */
 	
@@ -207,7 +207,7 @@
 	.cmsms_profile.vertical .pl_content_meta .pl_social_list li a:before, 
 	.post.cmsms_masonry_type .cmsms_post_cont .cmsms_post_cont_inner .cmsms_post_read_more:hover,
 	.post.cmsms_timeline_type .cmsms_post_cont .cmsms_post_footer .cmsms_post_read_more:hover {
-		color:#b7b7b7; color:rgba(183, 183, 183, 1);
+		color:#aed957; color:rgba(174, 217, 87, 1);
 	}
 	
 	.button, 
@@ -220,7 +220,7 @@
 	input[type='button'], 
 	button,
 	.cmsms_pricing_item .cmsms_button {
-		background-color:#b7b7b7; background-color:rgba(183, 183, 183, 1);
+		background-color:#aed957; background-color:rgba(174, 217, 87, 1);
 	}
 	/* Finish Highlight Color */
 	
@@ -3306,19 +3306,19 @@
 	html .cmsms_color_scheme_second .cmsms_clients_slider .owl-buttons > div.owl-next:hover .cmsms_next_arrow:before,
 	html .cmsms_color_scheme_second .cmsms_tabs.lpr .cmsms_tabs_list .cmsms_tabs_list_item > a,
 	html .cmsms_color_scheme_second .cmsms_post_comments:hover {
-		color:#838383; color:rgba(131, 131, 131, 1);
+		color:#ff6b6b; color:rgba(255, 107, 107, 1);
 	}
 	
 	html .cmsms_color_scheme_second abbr,
 	html .cmsms_color_scheme_second acronym {
-		border-bottom-color:#838383; border-bottom-color:rgba(131, 131, 131, 1);
+		border-bottom-color:#ff6b6b; border-bottom-color:rgba(255, 107, 107, 1);
 	}
 	
 	html .cmsms_color_scheme_second input::-webkit-input-placeholder {
-		color:#838383; color:rgba(131, 131, 131, 1);
+		color:#ff6b6b; color:rgba(255, 107, 107, 1);
 	}
 	html .cmsms_color_scheme_second input:-moz-placeholder {
-		color:#838383; color:rgba(131, 131, 131, 1);
+		color:#ff6b6b; color:rgba(255, 107, 107, 1);
 	}
 	/* Finish Main Content Font Color */
 	
@@ -3471,7 +3471,7 @@
 	html .cmsms_color_scheme_second .cmsms_profile.vertical .pl_content_meta .pl_social_list li a:before, 
 	html .cmsms_color_scheme_second .post.cmsms_masonry_type .cmsms_post_cont .cmsms_post_cont_inner .cmsms_post_read_more:hover,
 	html .cmsms_color_scheme_second .post.cmsms_timeline_type .cmsms_post_cont .cmsms_post_footer .cmsms_post_read_more:hover {
-		color:#b7b7b7; color:rgba(183, 183, 183, 1);
+		color:#4ecdc4; color:rgba(78, 205, 196, 1);
 	}
 	
 	html .cmsms_color_scheme_second .button, 
@@ -3484,7 +3484,7 @@
 	html .cmsms_color_scheme_second input[type='button'], 
 	html .cmsms_color_scheme_second button,
 	html .cmsms_color_scheme_second .cmsms_pricing_item .cmsms_button {
-		background-color:#b7b7b7; background-color:rgba(183, 183, 183, 1);
+		background-color:#4ecdc4; background-color:rgba(78, 205, 196, 1);
 	}
 	/* Finish Highlight Color */
 	
@@ -3538,13 +3538,13 @@
 	html .cmsms_color_scheme_second .cmsms_sitemap_wrap .cmsms_sitemap > li > a,
 	html .cmsms_color_scheme_second .cmsms_notice .notice_close:hover:before,
 	html .cmsms_color_scheme_second .post.cmsms_default_type .cmsms_post_date .cmsms_day_mon {
-		color:#656565; color:rgba(101, 101, 101, 1);
+		color:#314f70; color:rgba(49, 79, 112, 1);
 	}
 	
 	html .cmsms_color_scheme_second .fixed_footer #footer .footer_inner .footer_nav > li:before, 
 	html .cmsms_color_scheme_second .cmsms_toggles .cmsms_toggle_wrap .cmsms_toggle_title > .cmsms_toggle_plus .cmsms_toggle_plus_hor, 
 	html .cmsms_color_scheme_second .cmsms_toggles .cmsms_toggle_wrap .cmsms_toggle_title > .cmsms_toggle_plus .cmsms_toggle_plus_vert {
-		background-color:#656565; background-color:rgba(101, 101, 101, 1);
+		background-color:#314f70; background-color:rgba(49, 79, 112, 1);
 	}
 	/* Finish Headings Color */
 	
